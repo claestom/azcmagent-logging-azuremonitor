@@ -1,0 +1,17 @@
+[
+    {
+        "TimeGenerated": "2025-04-02T12:39:42Z",
+        "level": "debug",
+        "msg": "Running as elevated user"
+    },
+    {
+        "TimeGenerated": "2025-04-02T12:39:42Z",
+        "level": "debug",
+        "msg": "Agent Command: show "
+    },
+    {
+        "TimeGenerated": "2025-04-02T12:39:42Z",
+        "level": "debug",
+        "msg": "Agent Version: 1.50.02986.2095"
+    }
+]
