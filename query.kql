@@ -1,3 +1,1 @@
-###working query: dcr - customlogsdcr, law table: azcmagentlogs_CL
-
 source  | extend TimeGenerated = todatetime(extract(@"time=""([^""]+)""", 1, RawData)),  level = extract(@"level=([^ ]+)", 1, RawData),  msg = extract(@"msg=(.*)", 1, RawData)  | project TimeGenerated, level, msg
