@@ -1,4 +1,4 @@
-# Azure Arc Connected Machine Agent to Log Analytics Workspace
+# Centralize Arc Agent Logs with Log Analytics
 
 ## About
 This repository explains how you can transfer the Azure Arc Connected Machine Agent logs to a Log Analytics workspace to allow for central logging and monitoring of the different agents. It also mentions the use of the Azure Monitor Agent, custom text logs, and troubleshooting techniques.
