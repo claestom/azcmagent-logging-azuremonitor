@@ -77,6 +77,10 @@ This architecture provides a unified view across on-premises and cloud environme
 - Associate the DCR with your Azure Arc-enabled servers.
 - When associating, the Azure Monitor Extension will be enabled automatically.
 
+See picture below:
+
+![dcrass](./imgs/dcrass.png)
+
 ### Step 5: Query Data in Log Analytics Workspace
 - After a few minutes, data will be ingested.
 - In the Azure Portal, go to your Log Analytics Workspace and select **Logs**.
