@@ -42,13 +42,23 @@ This architecture provides a unified view across on-premises and cloud environme
 - Use the following sample JSON to define your schema:
 
   ```json
-  [
-    {
-      "TimeGenerated": "2025-04-02T12:39:42Z",
-      "level": "debug",
-      "msg": "Running as elevated user"
-    }
-  ]
+    [
+        {
+            "TimeGenerated": "2025-04-02T12:39:42Z",
+            "level": "debug",
+            "msg": "Running as elevated user"
+        },
+        {
+            "TimeGenerated": "2025-04-02T12:39:42Z",
+            "level": "debug",
+            "msg": "Agent Command: show "
+        },
+        {
+            "TimeGenerated": "2025-04-02T12:39:42Z",
+            "level": "debug",
+            "msg": "Agent Version: 1.50.02986.2095"
+        }
+    ]
   ```
 
 ### Step 3: Create and Configure the Data Collection Rule to Collect Custom Text Files
