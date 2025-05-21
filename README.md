@@ -31,7 +31,7 @@ This architecture provides a unified view across on-premises and cloud environme
 
 ## Usage
 
-### Step 1: Create a Log Analytics Workspace, Data Collection Rule, and Data Collection Endpoint
+### Step 1: Create a Log Analytics Workspace and a Data Collection Endpoint
 - Create a Log Analytics Workspace (you may re-use an existing one).
 - Create a Data Collection Endpoint (DCE).
 
